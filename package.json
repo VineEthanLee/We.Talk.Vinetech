@@ -3,12 +3,12 @@
   "workspaces": [
     "workspaces/*"
   ],
-  "name": "rocketchat",
-  "description": "Official OSX, Windows, and Linux Desktop Clients for Rocket.Chat",
-  "version": "3.6.0",
-  "author": "Rocket.Chat Support <support@rocket.chat>",
-  "copyright": "© 2016-2021, Rocket.Chat",
-  "homepage": "https://rocket.chat",
+  "name": "wetalk",
+  "description": "Official OSX, Windows, and Linux Desktop Clients for We.Talk",
+  "version": "0.1.0-beta",
+  "author": "We.Talk Support <support@vinetech.co.kr>",
+  "copyright": "© 2016-2021, Vinetech",
+  "homepage": "https://litmuscloud.com",
   "license": "MIT",
   "keywords": [
     "rocketchat",
@@ -17,10 +17,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RocketChat/Rocket.Chat.Electron.git"
+    "url": "git+https://github.com/VineEthanLee/We.Talk.Vinetech.git"
   },
   "bugs": {
-    "url": "https://github.com/RocketChat/Rocket.Chat.Electron/issues"
+    "url": "https://github.com/VineEthanLee/We.Talk.Vinetech/issues"
   },
   "main": "app/main.js",
   "scripts": {
@@ -128,5 +128,5 @@
     "node": ">=12.8.x",
     "yarn": ">=1.22.x"
   },
-  "productName": "Rocket.Chat"
+  "productName": "We.Talk"
 }
