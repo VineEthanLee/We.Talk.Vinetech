@@ -12,8 +12,8 @@ export const relaunchApp = (...args: string[]): void => {
 };
 
 export const performElectronStartup = (): void => {
-  app.setAsDefaultProtocolClient('rocketchat');
-  app.setAppUserModelId('chat.rocket');
+  app.setAsDefaultProtocolClient('WeTalk');
+  app.setAppUserModelId('We.Talk');
 
   app.commandLine.appendSwitch('--autoplay-policy', 'no-user-gesture-required');
 

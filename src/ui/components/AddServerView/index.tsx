@@ -31,10 +31,9 @@ import { request } from '../../../store';
 import { RootAction } from '../../../store/actions';
 import { RootState } from '../../../store/rootReducer';
 import { ADD_SERVER_VIEW_SERVER_ADDED } from '../../actions';
-import { RocketChatLogo } from '../RocketChatLogo';
 import { Wrapper } from './styles';
 
-const defaultServerUrl = new URL('https://open.rocket.chat/');
+const defaultServerUrl = new URL('https://wetalk.litmuscloud.com');
 
 export const AddServerView: FC = () => {
   const isVisible = useSelector(
@@ -168,9 +167,7 @@ export const AddServerView: FC = () => {
           method='/'
           onSubmit={handleFormSubmit}
         >
-          <Margins block='x16'>
-            <RocketChatLogo />
-          </Margins>
+          <Margins block='x16'></Margins>
           <FieldGroup>
             <Field>
               <Field.Label htmlFor={inputId}>
